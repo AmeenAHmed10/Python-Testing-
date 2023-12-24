@@ -21,3 +21,9 @@ print(b.startswith("a"))
 
 b = "AmeenoOOoo"
 print(b.swapcase())
+
+ac = "I LOVE AMEEN"
+print(ac.islower())
+
+ac = "i love ameen"
+print(ac.islower())
