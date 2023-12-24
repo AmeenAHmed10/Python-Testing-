@@ -1,16 +1,23 @@
-mystring = "   i love 1996 dsoooo     "
+mystring = " i love 1996 dsoooo "
+print(mystring[0:2])
+
+mystring = "    i love 1996 dsoooo     "
+print(mystring.rstrip())
+
+mystring = "    i love 1996 dsoooo     "
 print(mystring.lstrip())
-print(mystring.capitalize())
 
-a , b , c , d  = "1" , "11" , "111" , "1111"
-print(a.zfill(2))
-print(b.zfill(2))
-print(c.zfill(2))
-print(d.zfill(2))
+mystring = "    i love 1996 dsoooo     "
+print(mystring.title())
 
-ar = "Ameen"
-print(ar.upper())
-print(ar.lower())
+a = "i love your own goal"
+print(a.index("o", 0, 8))
 
-am = "ameen will go to the gym"
-print(len(am))
+b = "Ameenooo"
+print(b.center(0 ))
+
+b = "Ameenooo"
+print(b.startswith("a"))
+
+b = "AmeenoOOoo"
+print(b.swapcase())
