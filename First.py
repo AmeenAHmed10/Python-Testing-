@@ -1,29 +1,55 @@
-mystring = " i love 1996 dsoooo "
-print(mystring[0:2])
+name = "ameen"
+age = 27
+rank = 20
 
-mystring = "    i love 1996 dsoooo     "
-print(mystring.rstrip())
+print("my name is %s my age is %d my rank is %.2f"% (name,age,rank))
 
-mystring = "    i love 1996 dsoooo     "
-print(mystring.lstrip())
+mes = "ameen is good but have some mistakes in his love "
+print("message is %.15s" % mes)
 
-mystring = "    i love 1996 dsoooo     "
-print(mystring.title())
+name = "ameen"
+age = 27
+rank = 20
 
-a = "i love your own goal"
-print(a.index("o", 0, 8))
+print("my name is {:s}".format(name))
 
-b = "Ameenooo"
-print(b.center(0 ))
+mymoney = 6521488
 
-b = "Ameenooo"
-print(b.startswith("a"))
+print("my money in bank is {:_f}".format(mymoney))
 
-b = "AmeenoOOoo"
-print(b.swapcase())
+a,b,c = "one","two","three"
 
-ac = "I LOVE AMEEN"
-print(ac.islower())
+print("hello {} {} {}" .format(a,b,c))
+print("hello {1} {0} {2}" .format(a,b,c))
 
-ac = "i love ameen"
-print(ac.islower())
+a,b,c = 10 , 20 , 30
+
+print("hello {} {} {}" .format(a,b,c))
+print("hello {1:f} {0:f} {2:f}" .format(a,b,c))
+
+name = "ali"
+age = 28
+print("my name is %s and my age is %d" %(name,age))
+
+a , b , c = "first","second","third"
+print ("hello to {} {} {}".format(a , b , c))
+print ("hello to {2} {0} {1}".format(a , b , c))
+
+name = "ameen"
+age = 27
+print(f"my name is soo {name} and my age is {age}")
+
+print(float(100))
+print(8%2)
+print(100//5)
+
+mymen = ["one","two","three", 1.100, True]
+nn = ["four","five",False]
+
+mymen.append(nn)
+mymen.extend(nn)
+print (mymen)
+
+a = [1,2,5,9,7,8,10,3]
+a.sort(reverse=True)
+print (a)
