@@ -53,3 +53,21 @@ print (mymen)
 a = [1,2,5,9,7,8,10,3]
 a.sort(reverse=True)
 print (a)
+
+name = " remo"
+age = 27 
+rank = 10
+
+print("my name is %s and my age is %d and my rank is %.2f"%(name , age , rank))
+print("my name is {} and my age is {} and my rank is {:1f} ".format(name , age , rank))
+
+lis = ["ameen ","and", "remo are one person"]
+lo = ["kimoooo",10,10.5]
+lis.extend(lo)
+print(lis)
+
+pp = "ameen"
+print(pp.upper())
+print(pp.lower())
+print(pp.startswith("a"))
+print(pp.endswith("v"))
