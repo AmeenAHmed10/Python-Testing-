@@ -1,4 +1,4 @@
-name = "ameen"
+name = "ameen ahmed"
 age = 27
 rank = 20
 
