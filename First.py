@@ -1,4 +1,4 @@
-name = "ameen"
+name = "ameen ahmed"
 age = 27
 rank = 20
 
@@ -50,24 +50,33 @@ mymen.append(nn)
 mymen.extend(nn)
 print (mymen)
 
-a = [1,2,5,9,7,8,10,3]
-a.sort(reverse=True)
+a = [1,2,5,9,7,8,10,3,6,8,2]
+a.count(2)
 print (a)
 
-name = " remo"
-age = 27 
-rank = 10
+ee = {1, 2, 3, 5, 8, 7, 9}
+ee.add(10)
+print(ee)
 
-print("my name is %s and my age is %d and my rank is %.2f"%(name , age , rank))
-print("my name is {} and my age is {} and my rank is {:1f} ".format(name , age , rank))
+qq = {1, 2, 3, 5, 8, 7, 9,10}
+ww = {1,2,3}
+print(qq.issubset(ww))
 
-lis = ["ameen ","and", "remo are one person"]
-lo = ["kimoooo",10,10.5]
-lis.extend(lo)
-print(lis)
+user = {
 
-pp = "ameen"
-print(pp.upper())
-print(pp.lower())
-print(pp.startswith("a"))
-print(pp.endswith("v"))
+"name":"ameen",
+   "age":27,
+   "nationality":"egy"
+}
+print(user)
+print(user['name'])
+user.update({'rating':200})
+user.copy()
+print(user.keys())
+print(user.values())
+
+main = {
+      "name":"reemo"
+}
+b= main.copy()
+print(b)
